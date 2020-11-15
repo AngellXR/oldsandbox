@@ -1,0 +1,70 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
+      <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+<header>
+
+   
+  </header>
+
+
+  <body>
+    <div class="scene">
+      <a-scene embedded physics>
+        <a-entity auto-detect-controllers></a-entity>
+
+        <!-- <-- ASSET MANAGEMENT SYSTEM --> -->
+        <a-assets>
+          <img id="sky3" src="https://d3i9te5634opuo.cloudfront.net/DoveHill360-4.JPG">
+          <img id="sky2" src="https://d3i9te5634opuo.cloudfront.net/riva-sky.JPG">
+          <img id="water" src="https://cdn.glitch.com/9bf22f88-900e-4a50-89c0-f5bee04c91e2%2FTerrain002_2K_Flow.jpg?v=1604978720319">
+          <a-asset-item
+          id="logo"
+          src="https://d3i9te5634opuo.cloudfront.net/AngellXR-rounded.glb"
+          ></a-asset-item>
+        </a-assets>
+        <!-- <-- ASM END --> -->
+        <!-- <-- Primitives Below--> -->
+        <a-sky src="#sky3"></a-sky>
+        <a-plane src="#water" rotation="-90 0 0" width="10" height="10" repeat="100 100" transparent="true" opacity=".9">
+          <a-ocean rotation="0 0 0" src="#water" width="10" height="10" speed=".2" material="metalness:100; roughness:0; transparent: true; opacity: .7; shader: standard; 
+          color: #465775; side:double;"></a-ocean>
+        </a-plane>
+        <a-entity gltf-model="#logo" position="0 2 -5" scale=".2 .2 .2" animation="property: rotation; to: 0 -360 0; loop: true; dur: 6000; easeInOut: true"></a-entity>
+    </a-scene>
+    </div>
+    <div class="projects">
+      <h2>AngellXR Sandbox</h2>
+     
+      <section class="best">
+        
+        <div>
+        
+        <p>
+          Lorem ipsum
+        </p>
+        </div>
+      </section>
+      
+     
+      
+
+
+<script src="header.js"></script>
+<script src="animation.js"></script>
+
+
+
+
+
+
+  </body>
+</html>

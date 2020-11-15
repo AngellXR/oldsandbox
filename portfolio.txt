@@ -1,0 +1,187 @@
+ <!-- <ul>
+        <li>
+          <a href="./0/index.html">
+            <img src="./assets/img/0.gif" /><br />
+            <p class="title">Day 0</p>
+            <p>Simple animations and a bit of physics</p>
+          </a>
+        </li>
+        <li>
+          <a href="./1/index.html">
+            <img src="./assets/img/1.gif" /><br />
+            <p class="title">Day 1</p>
+            <p>Chord guessing game</p>
+          </a>
+        </li>
+        <li>
+          <a href="./2/index.html">
+            <img src="./assets/img/2.gif" /><br />
+            <p class="title">Day 2</p>
+            <p>AR visualization of a custom geometry</p>
+            <a href="./assets/markers/hiro.pdf" target="_blank" class="pdf-link"
+              >Print the marker to test.</a
+            >
+          </a>
+        </li>
+        <li>
+          <a href="./3/index.html">
+            <img src="./assets/img/3.gif" /><br />
+            <p class="title">Day 3</p>
+            <p>Simple physics simulation</p>
+          </a>
+        </li>
+        <li>
+          <a href="./4/index.html">
+            <img src="./assets/img/4.gif" /><br />
+            <p class="title">Day 4</p>
+            <p>More physics!</p>
+          </a>
+        </li>
+        <li>
+          <a href="./5/index.html">
+            <img src="./assets/img/5.gif" /><br />
+            <p class="title">Day 5</p>
+            <p>Custom shaders</p>
+          </a>
+        </li>
+        <li>
+          <a href="./6/index.html">
+            <img src="./assets/img/6.gif" /><br />
+            <p class="title">Day 6</p>
+            <p>glTF loading</p>
+          </a>
+        </li>
+        <li>
+          <a href="./7/index.html">
+            <img src="./assets/img/7.gif" /><br />
+            <p class="title">Day 7</p>
+            <p>Click &amp; plant</p>
+          </a>
+        </li>
+        <li>
+          <a href="./8/index.html">
+            <img src="./assets/img/8.gif" /><br />
+            <p class="title">Day 8</p>
+            <p>Simple UI</p>
+          </a>
+        </li>
+        <li>
+          <a href="./9/index.html">
+            <img src="./assets/img/9.gif" /><br />
+            <p class="title">Day 9</p>
+            <p>AR photo frames</p>
+          </a>
+        </li>
+        <li>
+          <a href="./10/index.html">
+            <img src="./assets/img/10.gif" /><br />
+            <p class="title">Day 10</p>
+            <p>Cloth simulation</p>
+          </a>
+        </li>
+        <li>
+          <a href="./11/index.html">
+            <img src="./assets/img/11.gif" /><br />
+            <p class="title">Day 11</p>
+            <p>VR gallery</p>
+          </a>
+        </li>
+        <li>
+          <a href="./12/index.html">
+            <img src="./assets/img/12.gif" /><br />
+            <p class="title">Day 12</p>
+            <p>More cloth simulations</p>
+          </a>
+        </li>
+        <li>
+          <a href="./13/index.html">
+            <img src="./assets/img/13.gif" /><br />
+            <p class="title">Day 13</p>
+            <p>FX 101</p>
+          </a>
+        </li>
+        <li>
+          <a href="./14/index.html">
+            <img src="./assets/img/14.gif" /><br />
+            <p class="title">Day 14</p>
+            <p>Explosion</p>
+          </a>
+        </li>
+        <li>
+          <a href="./15/index.html">
+            <img src="./assets/img/15.gif" /><br />
+            <p class="title">Day 15</p>
+            <p>Measurement tool (PC only)</p>
+          </a>
+        </li>
+        <li>
+          <a href="./16/index.html">
+            <img src="./assets/img/16.gif" /><br />
+            <p class="title">Day 16</p>
+            <p>AR Measurement tool</p>
+          </a>
+        </li>
+        <li>
+          <a href="./17/index.html">
+            <img src="./assets/img/17.gif" /><br />
+            <p class="title">Day 17</p>
+            <p>Leap motion 101</p>
+          </a>
+        </li>
+        <li>
+          <a href="./18/index.html">
+            <img src="./assets/img/18.gif" /><br />
+            <p class="title">Day 18</p>
+            <p>D3js map</p>
+          </a>
+        </li>
+        <li>
+          <a href="./19/index.html">
+            <img src="./assets/img/19.gif" /><br />
+            <p class="title">Day 19</p>
+            <p>Environment 101</p>
+          </a>
+        </li>
+        <li>
+          <a href="./20/index.html">
+            <img src="./assets/img/20.gif" /><br />
+            <p class="title">Day 20</p>
+            <p>Domino</p>
+          </a>
+        </li>
+        <li>
+          <a href="./21/index.html">
+            <img src="./assets/img/21.gif" /><br />
+            <p class="title">Day 21</p>
+            <p>Custom animated model</p>
+          </a>
+        </li>
+        <li>
+          <a href="./22/index.html">
+            <img src="./assets/img/22.gif" /><br />
+            <p class="title">Day 22</p>
+            <p>THREE.js + Leapjs</p>
+          </a>
+        </li>
+        <li>
+          <a href="./23/index.html">
+            <img src="./assets/img/23.gif" /><br />
+            <p class="title">Day 23</p>
+            <p>A-Frame + Leapjs</p>
+          </a>
+        </li>
+        <li>
+          <a href="./24/index.html">
+            <img src="./assets/img/24.gif" /><br />
+            <p class="title">Day 24</p>
+            <p>LEAP gestures</p>
+          </a>
+        </li>
+        <li>
+          <a href="./25/index.html">
+            <img src="./assets/img/25.gif" /><br />
+            <p class="title">Day 25</p>
+            <p>360 image</p>
+          </a>
+        </li>
+      </ul> -->
