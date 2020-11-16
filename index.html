@@ -26,6 +26,8 @@
           <img id="sky3" src="https://d3i9te5634opuo.cloudfront.net/DoveHill360-4.JPG">
           <img id="sky2" src="https://d3i9te5634opuo.cloudfront.net/riva-sky.JPG">
           <img id="water" src="https://cdn.glitch.com/9bf22f88-900e-4a50-89c0-f5bee04c91e2%2FTerrain002_2K_Flow.jpg?v=1604978720319">
+          <img id="numbers" src="https://cdn.glitch.com/2fa39cc3-dabf-4910-b818-158ecc49d6df%2Fnumbers.png?v=1605486362409">
+          <img id="rocks" src="https://cdn.glitch.com/2fa39cc3-dabf-4910-b818-158ecc49d6df%2Fseamless-rocks?v=1605484606239">
           <a-asset-item
           id="logo"
           src="https://d3i9te5634opuo.cloudfront.net/AngellXR-rounded.glb"
@@ -33,9 +35,9 @@
         </a-assets>
         <!-- <-- ASM END --> -->
         <!-- <-- Primitives Below--> -->
-        <a-sky src="#sky3"></a-sky>
-        <a-plane src="#water" rotation="-90 0 0" width="10" height="10" repeat="100 100" transparent="true" opacity=".9">
-          <a-ocean rotation="0 0 0" src="#water" width="10" height="10" speed=".2" material="metalness:100; roughness:0; transparent: true; opacity: .7; shader: standard; 
+        <a-sky src="#sky2"></a-sky>
+        <a-plane src="#numbers" rotation="-90 0 0" width="10" height="10" repeat="1 1" transparent="true" opacity=".9">
+          <a-ocean rotation="0 0 0" src="#numbers" width="10" height="10" speed=".2" material="metalness:.1; roughness:0; transparent: true; opacity: .1; shader: standard; 
           color: #465775; side:double;"></a-ocean>
         </a-plane>
         <a-entity gltf-model="#logo" position="0 2 -5" scale=".2 .2 .2" animation="property: rotation; to: 0 -360 0; loop: true; dur: 6000; easeInOut: true"></a-entity>
