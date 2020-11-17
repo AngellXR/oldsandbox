@@ -1,28 +1,19 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
-    />
       <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
       <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
-
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
-<header>
-
-   
-  </header>
-
+<!-- <header></header> comment this out for now  -->
 
   <body>
     <div class="page">
-    <!-- <div class="scene"> --> changed it to page to have a bigger view
+    <!-- <div class="scene"> changed it to page to have a bigger view -->
       <a-scene embedded physics>
         <a-entity auto-detect-controllers></a-entity>
 
-        <!-- <-- ASSET MANAGEMENT SYSTEM --> -->
+        <!-- Asset Management System -->
         <a-assets>
           <img id="sky3" src="https://d3i9te5634opuo.cloudfront.net/DoveHill360-4.JPG">
           <img id="sky2" src="https://d3i9te5634opuo.cloudfront.net/riva-sky.JPG">
@@ -34,8 +25,8 @@
           src="https://d3i9te5634opuo.cloudfront.net/AngellXR-rounded.glb"
           ></a-asset-item>
         </a-assets>
-        <!-- <-- ASM END --> -->
-        <!-- <-- Primitives Below--> -->
+        <!-- ASM END -->
+        <!-- PRIMATIVES BELOW -->
         <a-sky src="#sky2"></a-sky>
         <a-plane src="#numbers" rotation="-90 0 0" width="10" height="10" repeat="1 1" transparent="true" opacity=".9">
           <a-ocean rotation="0 0 0" src="#numbers" width="10" height="10" speed=".2" material="metalness:.1; roughness:0; transparent: true; opacity: .1; shader: standard; 
@@ -46,13 +37,11 @@
     </div>
     <div class="projects">
       <h2>AngellXR Sandbox</h2>
-     
+    
       <section class="best">
         
         <div>
-        
-        <p>
- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe0aV18zeV-0Id2kC5gpgR5-tQnYge72fgdM9k_6o69j3Eeqg/viewform?embedded=true" width="640" height="911" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>        </p>
+          <Project></Project>
         </div>
       </section>
       
@@ -62,6 +51,7 @@
 
 <script src="header.js"></script>
 <script src="animation.js"></script>
+<script src="Project.js"></script>
 
 
 

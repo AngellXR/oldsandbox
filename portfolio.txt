@@ -1,4 +1,4 @@
- <!-- <ul>
+      <ul>
         <li>
           <a href="./0/index.html">
             <img src="./assets/img/0.gif" /><br />
@@ -184,4 +184,4 @@
             <p>360 image</p>
           </a>
         </li>
-      </ul> -->
+      </ul>
