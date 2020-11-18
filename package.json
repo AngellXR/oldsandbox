@@ -1,0 +1,27 @@
+{
+  "name": "sandboXR",
+  "version": "1.0.0",
+  "description": "Sandbox for testing WebXR projects",
+  "main": "Project.js",
+  "dependencies": {
+    "aframe": "^1.0.4",
+    "bootstrap": "^4.5.3",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chas-e/sandboXR.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chas-e/sandboXR/issues"
+  },
+  "homepage": "https://github.com/chas-e/sandboXR#readme"
+}
