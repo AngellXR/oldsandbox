@@ -1,2 +1,3 @@
 # sandboXR
-Sandbox for testing WebXR projects
+
+Original AngellXR Sandbox for testing WebXR projects and assets.
